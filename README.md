@@ -1,6 +1,6 @@
 # Dinâmica day 8
 
-Essa foi a dinâmica 8 do curso de formação em tecnologia da dnc. Nesta dinâmica o objetivo foi desenvolver do zero tendo um figma.
+Essa foi a dinâmica 8 do curso de formação em tecnologia da dnc. Nesta dinâmica o objetivo foi desenvolver do zero tendo um figma do projeto.
 
 ## Instruções da Dinâmica
 
