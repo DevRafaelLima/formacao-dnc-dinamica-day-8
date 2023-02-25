@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- css custom -->
+    <link rel="stylesheet" href="estilo.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>moonow</title>
+</head>
+
+<body>
+    <div class="body">
+        <header class="header">
+            <div class="logo">
+                <img src="imgs/logo.svg" alt="">
+            </div>
+            <nav class="nav">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosso propósito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Suporte</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div class="content">
+            <div class="form">
+                <h1>Increva-se e viaje para a lua gratuitamente</h1>
+    
+                <form onsubmit="onSubmit(event)">
+                    <p>
+                        <input type="text" id="nome_completo" placeholder="Nome Completo">
+                        <span id="span-nome-completo">Informe seu nome completo, por favor.</span>
+                    </p>
+                    <p>
+                        <input type="email" id="email" placeholder="Email">
+                        <span id="span-email">Informe seu email, por favor.</span>
+                    </p>
+                    
+                    <div id="area-buttons">
+                        <input type="submit" value="Quero ir para lua!" id="btn-ir-para-lua">
+                        <button id="btn-mais-info">Mais informações</button>
+                    </div>
+                </form>
+            </div>
+            <div class="figure">
+                <img src="imgs/nav.svg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+        <!-- script custom -->
+        <script src="script.js"></script>
+</body>
+
+</html>

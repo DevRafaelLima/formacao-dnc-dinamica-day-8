@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700;800&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --font-family: 'Baloo Bhaina 2', cursive;
+    --font-family-place-holder: 'Lexend Deca', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    height: 100vh;
+    padding: 0px 200px 0px 200px;
+    background-image: linear-gradient(to bottom, #0C0F07, #1F102B, #23193E);
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #E0DAED;
+}
+
+.content {
+    display: flex;
+    margin-top: 100px;
+}
+
+.content .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.content .form h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 50px;
+
+    text-align: center;
+
+    color: rgba(159, 127, 219, 0.8);
+
+    margin-bottom: 30px;
+}
+
+.content .form input[type='text'],
+input[type='email'] {
+    width: 408.2px;
+    height: 61.23px;
+    left: 41px;
+    top: 295px;
+
+    padding: 0px 0px 0px 50px;
+    margin-top: 20px;
+
+    color: #fff;
+    font-family: var(--font-family-place-holder);
+
+    background: #9F7FDB;
+    border-radius: 10px;
+}
+
+.content .form span {
+    font-family: var(--font-family-place-holder);
+    display: none;
+    color: red;
+}
+
+.content .form ::placeholder {
+    font-family: var(--font-family-place-holder);
+    color: #fff;
+}
+
+.content .figure {
+    flex: 1;
+}
+
+#area-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn-ir-para-lua {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 28px;
+    
+
+    background: #7834F3;
+    border-radius: 8px;
+
+    color: #fff;
+    font-family: var(--font-family);
+    cursor: pointer;
+}
+
+#btn-mais-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 28px;
+
+    background: #9F7FDB;
+    border-radius: 8px;
+
+    color: #FFFFFF;
+    font-family: var(--font-family);
+    cursor: pointer;
+}
