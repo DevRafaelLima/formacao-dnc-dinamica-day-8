@@ -90,6 +90,9 @@ input[type='email'] {
     display: none;
     color: red;
 }
+#span-success{
+    color: green;
+}
 
 .content .form ::placeholder {
     font-family: var(--font-family-place-holder);
